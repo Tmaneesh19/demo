@@ -1,0 +1,74 @@
+###ADVI GROUP - INTERNSHIP
+
+TASK-01(13-03-2025)
+Peripherals of Embedded Systems:
+
+Peripherals in Embedded Systems are hardware components that enable communication with the external devices and also it take care of Data processing. 
+
+Types of Peripherals:
+1.Input peripheral:-These peripherals take the data from the output and provide it to the embedded system.
+-keypads and Touch screens.(user unput interfaces)
+-sensors(Measure the physical parameters)
+-IR receivers(used for remote controls)
+
+2.Output of peripherals:-These peripherals helps to communicate results with others systems.
+-Speakers(7-segment,LCD)
+-Diplay(provide audio out)
+-Motors(DC mtors-enable movement)
+
+3.Communication Peripherals:-Exchange of Data takes place here.
+-wired communications(UART,I2C,USB)
+-wireless communicatons(Wifi,Bluetooth)
+
+4.Memory peripherals:-This peripheral is used for storage and data processing purpose.
+-Flash memory.( Non-volatile storage)
+-EPROM(Stores small amounts of non-volatile data.)
+-RAM(Temporary storage for processing)
+
+Time and control peripherals(timers and counters)
+Power management(manage power distribution and efficiency)
+
+
+2.GPIO(General purpose input/output)
+
+GPIO is one of the most widely used peripheral in Embedded systems.It has flexibility to configurable as both input and output.
+-GPIO works as both input and output.
+-GPIO can set the direction of pin,can write the output,it can also read from input,pull up (HIGH) and pull down (LOW) resistors.
+Applications:- 
+Controlling LEDs,motors and buzzers.
+Reading input from buttons,switches and sensors.
+Interfacing with external modles like LCDs and keypads.
+
+3.SENSORS
+Sensors are devices that detect changes in the environment or any physical conditions and convert them into electrical signals that can be processed by the embedded system.
+Here electrical signals can be analog or digital.
+How Sensors works:
+1.sensor detects physical changes and generate electrical signals.
+2.Signals are filtered and amplified and converted to digital using ADC.
+3.Data processing by using micro processors.
+4.Based on the sensor data, the embedded system may control actuators.
+EXAMPLES:
+Temp sensors,proximity,pressure,pressure sensors.
+
+4.ACTUATORS:
+Actuators are devices that convert input electrical signals from an embedded  system into physical movement or action. 
+-They help in carry out the operations like moving, lifting, rotating, or actuating other mechanical systems.
+- Actuators may be classified depending on the type of motion or action.
+1.Electric motors(convert electrical energy into rotation and linear motion.)
+2. Solenoids(Convert electrical energy into linear motion using a magnetic field.)
+
+TIMERS 
+Timers are used to measure time intervals, generate delays, and produce periodic signals.
+Timers are classified into:
+1. Delay Timer(Used to introduce precise time delays in firmware)
+2. Watchdog Timer (WST- Reset the system if software hangs)
+3. Real-Time Clock (RTC- Maintains the current time even during power loss)
+
+COUNTERS
+Counters are used to count external events like pulses from a sensor or a rotary encoder.
+Types of Counters:
+1. Event Counters:Count external signal edges (rising or falling)
+2. Up Counters(Increment on each external event)
+3. Down Counters(Decrement on each external event)
+4. Up-Down Counters(Can increment or decrement based on control signals)
+
