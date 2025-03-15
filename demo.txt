@@ -72,3 +72,4 @@ Types of Counters:
 3. Down Counters(Decrement on each external event)
 4. Up-Down Counters(Can increment or decrement based on control signals)
 
+ 
